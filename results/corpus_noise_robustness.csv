@@ -1,0 +1,9 @@
+metric,full,clean,diff_pp
+N records,6697,6404,
+Technology-oriented %,91.06,90.99,-0.07
+Pedagogy-oriented %,27.36,27.56,0.2
+Cumulative % - 1. Design Feature,53.16,52.89,-0.27
+Cumulative % - 2. UX Response,43.84,44.02,0.18
+Cumulative % - 3. Behavioral Interaction,5.08,5.14,0.06
+Cumulative % - 4. Learning Process,0.91,0.89,-0.02
+Cumulative % - 5. Learning Outcome,0.21,0.22,0.01

@@ -1,0 +1,95 @@
+column,type,group,description
+record_id,integer,Identifier,Row number in the authors' processed Scopus export (2015-2025). Used to link records across files.
+eid,text,Identifier,Scopus EID. Look up a record at https://www.scopus.com/record/display.uri?eid=<eid> (Scopus access needed).
+doi,text,Identifier,DOI as given by Scopus; empty for 576 records without one.
+document_type,text,Identifier,Article or Conference paper.
+year,integer,Identifier,Publication year.
+cited_by,integer,Identifier,Scopus citation count at data collection (31 December 2025).
+PrimaryDomain,0/1,Domain (single label),Single domain label; first matching rule in coding/domain_rules.csv wins.
+Likely_FalsePositive,0/1,Corpus cleaning,"1 = flagged as off-topic by the cleaning filter and excluded from the analytic corpus (N = 6,404 records have 0)."
+Usability,0/1,UX dimension (broad),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+UX_Satisfaction_Engagement,0/1,UX dimension (broad),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Accessibility,0/1,UX dimension (broad),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Personalization_Adaptive,0/1,UX dimension (broad),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Aesthetics_Immersion,0/1,UX dimension (broad),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Quality_Trust,0/1,UX dimension (broad),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Questionnaire_Survey,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Interview,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Usability_Testing,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+SUS,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+UEQ,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+TAM,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Eye_Tracking,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+AB_Testing,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Focus_Group,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Learning_Analytics,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Think_Aloud,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Heuristic_Evaluation,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Attitudinal_Signal,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Behavioral_Signal,0/1,Method,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Usability__Efficiency,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Usability__Effectiveness,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Usability__Learnability,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Usability__Memorability,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Usability__Errors,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Usability__Ease_of_Use,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Usability__Navigability,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+UX_Satisfaction_Engagement__Satisfaction,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+UX_Satisfaction_Engagement__Engagement,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+UX_Satisfaction_Engagement__Enjoyment,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+UX_Satisfaction_Engagement__Motivation,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Aesthetics_Immersion__Visual_Aesthetics,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Aesthetics_Immersion__Immersion_Presence,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Aesthetics_Immersion__Attractiveness,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Accessibility__Inclusivity,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Accessibility__Assistive_Support,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Personalization_Adaptive__Adaptivity,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Personalization_Adaptive__Customization,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Quality_Trust__Content_Quality,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Quality_Trust__Trust_Credibility,0/1,UX sub-dimension,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Aesthetics,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Emotional,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Novelty,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Stimulation,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Perspicuity,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Dependability,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Usefulness,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Subjective_Quality,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Functionality,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Quality_of_interaction,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Pragmatic_Quality,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Hedonic_Quality,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Cognitive,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Responsiveness,0/1,UX attribute (22-attribute set),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Context_Strict,0/1,Context of use,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Context_Generic,0/1,Context of use,"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Technology_Signal,0/1,Orientation (RQ1),1 = at least one technology-related term. Not mutually exclusive with Pedagogy_Signal.
+Pedagogy_Signal,0/1,Orientation (RQ1),"1 = at least one pedagogy-related term. Indicates term occurrence, not theoretical integration."
+Design_Signal,0/1,Evidence chain (RQ3),Earlier design flag (any broad UX dimension). Kept for transparency; not used in the final funnel.
+PragmaticUX_Signal,0/1,Evidence chain (RQ3),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+ExperientialUX_Signal,0/1,Evidence chain (RQ3),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Behavioral_EvidenceSignal,0/1,Evidence chain (RQ3),Evidence stage 3 (Behavioral Interaction); copy of Behavioral_Signal.
+LearningProcess_Signal,0/1,Evidence chain (RQ3),"Evidence stage 4 (Learning Process), original keyword list."
+LearningOutcome_Signal,0/1,Evidence chain (RQ3),"Evidence stage 5 (Learning Outcome), original keyword list."
+LearningProcess_Strict,0/1,Evidence chain - sensitivity variant,Sensitivity variant of the learning process/outcome stage (see results/rq3_sensitivity.csv).
+LearningProcess_Broad,0/1,Evidence chain - sensitivity variant,Sensitivity variant of the learning process/outcome stage (see results/rq3_sensitivity.csv).
+LearningOutcome_Strict,0/1,Evidence chain - sensitivity variant,Sensitivity variant of the learning process/outcome stage (see results/rq3_sensitivity.csv).
+LearningOutcome_Broad,0/1,Evidence chain - sensitivity variant,Sensitivity variant of the learning process/outcome stage (see results/rq3_sensitivity.csv).
+ResearchType,0/1,Study type,Literature Review / Theoretical / Design/Development / Empirical (first matching rule).
+MethodologicalApproach,0/1,Study type,Behavioral / Attitudinal / Mixed / Not Specified.
+QualQuant,0/1,Study type,Qualitative / Quantitative / Mixed Methods / Not Specified.
+SpecificMethod,0/1,Study type,"Dominant method, first term matched in a fixed order."
+UX_Response_Signal,0/1,Evidence chain (RQ3),Evidence stage 2 (UX Response) = PragmaticUX_Signal OR ExperientialUX_Signal.
+Interaction_Usability_Signal,0/1,"Design feature (earlier version, not used in final funnel)","1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Engagement_Supporting_Signal,0/1,"Design feature (earlier version, not used in final funnel)","1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Accessibility_Inclusive_Signal,0/1,"Design feature (earlier version, not used in final funnel)","1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Personalization_Adaptive_Signal_v2,0/1,"Design feature (earlier version, not used in final funnel)","1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Aesthetic_Multimedia_Immersive_Signal,0/1,"Design feature (earlier version, not used in final funnel)","1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Quality_Reliability_Trust_Signal,0/1,"Design feature (earlier version, not used in final funnel)","1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+Design_Feature_v2,0/1,"Design feature (earlier version, not used in final funnel)","1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+DesignFeat_VisualDesign,0/1,Design feature component (feeds DesignFeature_V8),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+DesignFeat_InterfaceDesign,0/1,Design feature component (feeds DesignFeature_V8),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+DesignFeat_ContentOrg,0/1,Design feature component (feeds DesignFeature_V8),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+DesignFeat_Functionality_pt1,0/1,Design feature component (feeds DesignFeature_V8),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."
+DesignFeature_V8,0/1,Evidence chain (RQ3),Evidence stage 1 (Design Feature). 1 if any DesignFeat_* component is 1.
+DesignFeat_Functionality_pt2,0/1,Design feature component (feeds DesignFeature_V8),"1 = rule matched in title, abstract or keywords; 0 = not matched. Pattern in coding/coding_dictionary.csv."

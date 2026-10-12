@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite the dataset and the related paper."
+type: dataset
+title: "UX Design in Digital Learning Platforms, 2015-2025: Data and Coding Rules"
+version: "1.0"
+date-released: "2026-11-01"
+license: CC-BY-4.0
+authors:
+  - family-names: "LASTNAME1"
+    given-names: "FIRSTNAME1"
+    affiliation: "AFFILIATION1"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "LASTNAME2"
+    given-names: "FIRSTNAME2"
+    affiliation: "AFFILIATION2"
+keywords:
+  - user experience
+  - digital learning platforms
+  - e-learning
+  - bibliometric analysis
+  - learning outcomes
+abstract: >-
+  Record-level coding output, rule set, manual validation sample and
+  reproduction script for a bibliometric review of 6,404 Scopus-indexed
+  publications on user experience design in digital learning platforms
+  (2015-2025).
+preferred-citation:
+  type: conference-paper
+  title: "From Aesthetics to Learning: A Bibliometric and Conceptual Review of User Experience Design in Digital Learning Platforms (2015-2025)"
+  authors:
+    - family-names: "LASTNAME1"
+      given-names: "FIRSTNAME1"
+    - family-names: "LASTNAME2"
+      given-names: "FIRSTNAME2"
+  collection-title: "CONFERENCE NAME"
+  year: 2026

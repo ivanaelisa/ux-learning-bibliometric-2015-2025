@@ -1,0 +1,25 @@
+attribute,orientation,source_column,n,pct_of_records,pct_of_mentions
+Usability,App aspect,Usability,3395,53.01,32.15
+Effectiveness,App aspect,Usability__Effectiveness,1164,18.18,11.02
+Engagement,User aspect,UX_Satisfaction_Engagement__Engagement,1025,16.01,9.71
+Efficiency,App aspect,Usability__Efficiency,976,15.24,9.24
+Satisfaction,User aspect,UX_Satisfaction_Engagement__Satisfaction,843,13.16,7.98
+Ease of Use,App aspect,Usability__Ease_of_Use,588,9.18,5.57
+Emotional,User aspect,Emotional,511,7.98,4.84
+Novelty,App aspect,Novelty,475,7.42,4.5
+Usefulness,App aspect,Usefulness,352,5.5,3.33
+Functionality,App aspect,Functionality,294,4.59,2.78
+Enjoyment,User aspect,UX_Satisfaction_Engagement__Enjoyment,234,3.65,2.22
+Cognitive,User aspect,Cognitive,157,2.45,1.49
+Attractiveness,App aspect,Aesthetics_Immersion__Attractiveness,125,1.95,1.18
+Stimulation,App aspect,Stimulation,106,1.66,1.0
+Aesthetics,App aspect,Aesthetics,102,1.59,0.97
+Perspicuity,App aspect,Perspicuity,63,0.98,0.6
+Dependability,App aspect,Dependability,45,0.7,0.43
+Responsiveness,App aspect,Responsiveness,39,0.61,0.37
+Hedonic Quality,User aspect,Hedonic_Quality,22,0.34,0.21
+Subjective Quality,User aspect,Subjective_Quality,21,0.33,0.2
+Quality of interaction,App aspect,Quality_of_interaction,13,0.2,0.12
+Pragmatic Quality,App aspect,Pragmatic_Quality,10,0.16,0.09
+App aspect total,App aspect,,7747,,73.36
+User aspect total,User aspect,,2813,,26.64

@@ -1,0 +1,13 @@
+priority,domain,regex
+1,Corporate_Training,corporate training|workplace learning|employee training|professional training|staff training
+2,Blended_Hybrid,blended learning|hybrid learning|flipped classroom
+3,MOOC,\bmooc|massive open online course
+4,Mobile_Learning,mobile learning|\bm-learning\b|mobile app|mobile device
+5,LMS_VLE,learning management system|\blms\b|moodle|canvas|blackboard|virtual learning environment
+6,VR_AR_Immersive_Gamification,virtual reality|augmented reality|immersive|gamification|game-based learning|serious game
+7,AI_Adaptive,artificial intelligence|machine learning|deep learning|adaptive learning|chatbot|generative ai|intelligent tutoring
+8,Medical_Health_Education,medical education|nursing education|clinical education|health care education|medical student
+9,Language_Learning,language learning|english learning|second language|\befl\b|\besl\b
+10,Formal_Education_K12_HigherEd,\bk-12\b|\bk12\b|elementary school|primary school|secondary school|higher education|university student|undergraduate|college student
+11,Generic_ELearning_Online,e-learning|elearning|online learning|online course|online platform|distance learning|distance education
+12,Other_Niche,(no earlier rule matched)

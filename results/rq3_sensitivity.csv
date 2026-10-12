@@ -1,0 +1,10 @@
+subset,keyword_list,n,behavioral_cum_n,learning_process_cum_n,learning_process_cum_pct,full_chain_n,full_chain_pct
+All records (clean),Strict,6404,329,23,0.36,4,0.06
+All records (clean),Original,6404,329,57,0.89,14,0.22
+All records (clean),Broad,6404,329,60,0.94,17,0.27
+Top 10% most-cited,Strict,640,26,3,0.47,0,0.0
+Top 10% most-cited,Original,640,26,5,0.78,1,0.16
+Top 10% most-cited,Broad,640,26,5,0.78,1,0.16
+Top 5% most-cited,Strict,320,16,3,0.94,0,0.0
+Top 5% most-cited,Original,320,16,5,1.56,1,0.31
+Top 5% most-cited,Broad,320,16,5,1.56,1,0.31

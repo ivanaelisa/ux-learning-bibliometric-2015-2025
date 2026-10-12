@@ -1,0 +1,6 @@
+stage,column,individual_n,individual_pct,cumulative_n,cumulative_pct
+1. Design Feature,DesignFeature_V8,3387,52.89,3387,52.89
+2. UX Response,UX_Response_Signal,4985,77.84,2819,44.02
+3. Behavioral Interaction,Behavioral_EvidenceSignal,660,10.31,329,5.14
+4. Learning Process,LearningProcess_Signal,788,12.3,57,0.89
+5. Learning Outcome,LearningOutcome_Signal,901,14.07,14,0.22

@@ -1,0 +1,51 @@
+keyword,cluster,cluster_label,pagerank,betweenness,closeness
+e-learning,2,"E-learning, usability and UX",0.09693,199.221,0.02
+usability,2,"E-learning, usability and UX",0.08156,81.415,0.01852
+user experience,2,"E-learning, usability and UX",0.07483,80.846,0.01961
+learning management system,2,"E-learning, usability and UX",0.03197,7.047,0.01408
+user interface,2,"E-learning, usability and UX",0.02884,8.231,0.01538
+mobile learning,2,"E-learning, usability and UX",0.02802,11.876,0.01562
+gamification,2,"E-learning, usability and UX",0.02185,5.483,0.01449
+heuristic evaluation,2,"E-learning, usability and UX",0.01946,1.54,0.0137
+design,2,"E-learning, usability and UX",0.01477,0.705,0.01299
+covid-19,2,"E-learning, usability and UX",0.01325,1.18,0.01266
+moodle,2,"E-learning, usability and UX",0.01305,0.184,0.0119
+accessibility,2,"E-learning, usability and UX",0.01296,0.455,0.01282
+learning analytics,2,"E-learning, usability and UX",0.01167,1.746,0.01299
+technology acceptance,2,"E-learning, usability and UX",0.01044,0.121,0.01176
+user centered design,2,"E-learning, usability and UX",0.01008,0.132,0.01235
+distance learning,2,"E-learning, usability and UX",0.00973,0.74,0.01205
+online education,2,"E-learning, usability and UX",0.00886,0.612,0.0125
+motivation,2,"E-learning, usability and UX",0.00865,0.112,0.0119
+eye tracking,2,"E-learning, usability and UX",0.00854,0.253,0.0119
+engagement,2,"E-learning, usability and UX",0.00831,0.408,0.01205
+mooc,2,"E-learning, usability and UX",0.00809,0.03,0.01176
+blended learning,2,"E-learning, usability and UX",0.0076,0.063,0.01149
+e-learning platform,2,"E-learning, usability and UX",0.00751,0.201,0.0119
+virtual reality,1,VR and educational technology,0.08281,161.14,0.01923
+education,1,VR and educational technology,0.05385,48.205,0.01961
+educational technology,1,VR and educational technology,0.03881,31.162,0.01786
+human computer interaction,1,VR and educational technology,0.03086,8.992,0.01639
+augmented reality,1,VR and educational technology,0.02752,6.977,0.01493
+artificial intelligence,1,VR and educational technology,0.0205,7.15,0.01449
+machine learning,1,VR and educational technology,0.01945,6.07,0.01333
+mobile applications,1,VR and educational technology,0.01846,2.42,0.01316
+personnel training,1,VR and educational technology,0.01569,1.364,0.01299
+game-based learning,1,VR and educational technology,0.01398,1.869,0.01299
+interactive learning,1,VR and educational technology,0.01258,0.77,0.01282
+learning,1,VR and educational technology,0.01172,0.367,0.0125
+serious games,1,VR and educational technology,0.0112,0.512,0.01266
+medical education,1,VR and educational technology,0.01007,0.647,0.01266
+deep learning,1,VR and educational technology,0.00935,0.85,0.01205
+immersive learning,1,VR and educational technology,0.00879,0.022,0.01136
+simulation,1,VR and educational technology,0.00836,0.185,0.01176
+digital learning,1,VR and educational technology,0.00822,0.161,0.01235
+cognitive load,1,VR and educational technology,0.00784,0.093,0.0119
+metaverse,1,VR and educational technology,0.00753,0.114,0.01176
+personalized learning,1,VR and educational technology,0.00724,0.262,0.01176
+data visualization,1,VR and educational technology,0.00723,0.29,0.01235
+natural language processing,1,VR and educational technology,0.0068,0.082,0.01136
+adaptive learning,1,VR and educational technology,0.00678,0.492,0.01176
+serious game,1,VR and educational technology,0.0064,0.161,0.01163
+collaborative learning,1,VR and educational technology,0.00615,0.031,0.01124
+reinforcement learning,1,VR and educational technology,0.00485,0.01,0.01099

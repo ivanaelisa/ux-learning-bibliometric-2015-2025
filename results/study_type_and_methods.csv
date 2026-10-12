@@ -1,0 +1,26 @@
+table,category,n,denominator,pct
+Research type,Theoretical,2503,6404,39.08
+Research type,Empirical,2139,6404,33.4
+Research type,Design/Development,1547,6404,24.16
+Research type,Literature Review,215,6404,3.36
+Approach (empirical studies only),Not Specified,941,2139,43.99
+Approach (empirical studies only),Attitudinal,747,2139,34.92
+Approach (empirical studies only),Behavioral,449,2139,20.99
+Approach (empirical studies only),Mixed (Behavioral + Attitudinal),2,2139,0.09
+Dominant method (first match),Mixed/Other,2888,6404,45.1
+Dominant method (first match),Survey,811,6404,12.66
+Dominant method (first match),Experimental,769,6404,12.01
+Dominant method (first match),Interviews,449,6404,7.01
+Dominant method (first match),Questionnaire,438,6404,6.84
+Dominant method (first match),Usability Testing,404,6404,6.31
+Dominant method (first match),Case Study,221,6404,3.45
+Dominant method (first match),Analytics,128,6404,2.0
+Dominant method (first match),Literature Review,114,6404,1.78
+Dominant method (first match),Eye-tracking,93,6404,1.45
+Dominant method (first match),Focus Groups,43,6404,0.67
+Dominant method (first match),Participatory Design,14,6404,0.22
+Dominant method (first match),A/B Testing,11,6404,0.17
+Dominant method (first match),Field Studies,11,6404,0.17
+Dominant method (first match),Bibliometric Analysis,7,6404,0.11
+Dominant method (first match),Card Sorting,2,6404,0.03
+Dominant method (first match),Ethnographic Research,1,6404,0.02
