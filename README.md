@@ -2,7 +2,7 @@
 
 Supporting data for the paper:
 
-> [Author names]. "From Aesthetics to Learning: A Bibliometric and Conceptual Review of User Experience Design in Digital Learning Platforms (2015–2025)." In *[Conference name]*, 2026.
+> I. E. K. Sari and A. N. Hidayanto. "From Aesthetics to Learning: A Bibliometric and Conceptual Review of User Experience Design in Digital Learning Platforms (2015–2025)." In *Proc. 2026 12th Int. HCI and UX Conf. in Indonesia (CHIuXiD)*, 2026.
 
 DOI of this dataset: [Zenodo DOI]
 
@@ -104,7 +104,7 @@ Fig. 2 (topic trends) was also made in Biblioshiny and is not included.
 
 If you use these data, please cite the paper above and this dataset:
 
-> [Author names] (2026). *UX Design in Digital Learning Platforms, 2015–2025: Data and Coding Rules* (Version 1.0) [Data set]. Zenodo. [DOI]
+> I. E. K. Sari and A. N. Hidayanto (2026). *UX Design in Digital Learning Platforms, 2015–2025: Data and Coding Rules* (Version 1.0) [Data set]. Zenodo. [DOI]
 
 ## License
 
@@ -112,4 +112,4 @@ Data, coding rules and documents: CC BY 4.0. Script: MIT. See `LICENSE`.
 
 ## Contact
 
-[Corresponding author name, affiliation, email]
+**Corresponding author:** Ivana Elisa Kurnia Sari, Faculty of Computer Science, Universitas Indonesia (ivana.elisa@ui.ac.id)
