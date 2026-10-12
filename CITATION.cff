@@ -6,13 +6,12 @@ version: "1.0"
 date-released: "2026-11-01"
 license: CC-BY-4.0
 authors:
-  - family-names: "LASTNAME1"
-    given-names: "FIRSTNAME1"
-    affiliation: "AFFILIATION1"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-  - family-names: "LASTNAME2"
-    given-names: "FIRSTNAME2"
-    affiliation: "AFFILIATION2"
+  - family-names: "Sari"
+    given-names: "Ivana Elisa Kurnia"
+    affiliation: "Faculty of Computer Science, Universitas Indonesia"
+  - family-names: "Hidayanto"
+    given-names: "Achmad Nizar"
+    affiliation: "Faculty of Computer Science, Universitas Indonesia"
 keywords:
   - user experience
   - digital learning platforms
@@ -28,9 +27,9 @@ preferred-citation:
   type: conference-paper
   title: "From Aesthetics to Learning: A Bibliometric and Conceptual Review of User Experience Design in Digital Learning Platforms (2015-2025)"
   authors:
-    - family-names: "LASTNAME1"
-      given-names: "FIRSTNAME1"
-    - family-names: "LASTNAME2"
-      given-names: "FIRSTNAME2"
-  collection-title: "CONFERENCE NAME"
+    - family-names: "Sari"
+      given-names: "Ivana Elisa Kurnia"
+    - family-names: "Hidayanto"
+      given-names: "Achmad Nizar"
+  collection-title: "2026 12th International HCI and UX Conference in Indonesia (CHIuXiD)"
   year: 2026
