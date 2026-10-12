@@ -4,7 +4,7 @@ Supporting data for the paper:
 
 > I. E. K. Sari and A. N. Hidayanto. "From Aesthetics to Learning: A Bibliometric and Conceptual Review of User Experience Design in Digital Learning Platforms (2015–2025)." In *Proc. 2026 12th Int. HCI and UX Conf. in Indonesia (CHIuXiD)*, 2026.
 
-DOI of this dataset: [Zenodo DOI]
+DOI of this dataset: https://doi.org/10.5281/zenodo.23318250
 
 The repository contains the record-level coding output, the full rule set that produced it, the manual validation sample, and a short script that rebuilds every table and figure value reported in the paper.
 
@@ -104,7 +104,7 @@ Fig. 2 (topic trends) was also made in Biblioshiny and is not included.
 
 If you use these data, please cite the paper above and this dataset:
 
-> I. E. K. Sari and A. N. Hidayanto (2026). *UX Design in Digital Learning Platforms, 2015–2025: Data and Coding Rules* (Version 1.0) [Data set]. Zenodo. [DOI]
+> I. E. K. Sari and A. N. Hidayanto (2026). *UX Design in Digital Learning Platforms, 2015–2025: Data and Coding Rules* (Version 1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23318250
 
 ## License
 
