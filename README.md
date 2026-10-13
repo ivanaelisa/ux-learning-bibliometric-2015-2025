@@ -2,7 +2,7 @@
 
 Supporting data for the paper:
 
-> I. E. K. Sari and A. N. Hidayanto. "From Aesthetics to Learning: A Bibliometric and Conceptual Review of User Experience Design in Digital Learning Platforms (2015–2025)." In *Proc. 2026 12th Int. HCI and UX Conf. in Indonesia (CHIuXiD)*, 2026.
+> I. E. K. Sari and A. N. Hidayanto. "From Aesthetics to Learning: A Bibliometric and Conceptual Review of User Experience Design in Digital Learning Platforms (2015-2025)." In *Proc. 2026 12th Int. HCI and UX Conf. in Indonesia (CHIuXiD)*, 2026.
 
 DOI of this dataset: https://doi.org/10.5281/zenodo.23318250
 
